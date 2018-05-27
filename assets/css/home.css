@@ -18,9 +18,27 @@
 
 }
 
-h4 {
-    font-size:22px;
+#hd4One {
+    font-size:48px;
     font-style:italic;
+    text-shadow: 2px 2px papayawhip, 4px 4px firebrick;
     color:darkgoldenrod;
+}
+
+#hd4Two  {
+    font-size:40px;
+    font-style:italic;
+    text-shadow: 2px 2px firebrick, 3px 3px papayawhip;
+    color:darkgoldenrod;
+}
+
+.hmFtAOne {
+    font-size:30px;
+    color:midnightblue;
+}
+
+.hmFtATwo {
+    font-size:30px;
+    color:red;
 }
 
