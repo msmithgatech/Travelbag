@@ -1,0 +1,261 @@
+YELLOW FEVER,CHOLERA (recommended),VISA REQUIRED,Country / state / territory,Plug type
+Angola,Algeria,Afghanistan,"Abu Dhabi (not a country, but capital of the United Arab Emirates)",G
+Benin,Benin,Algeria,Afghanistan,C / F
+Burkina Faso,Botswana,Angola,Albania,C / F
+Burundi,Brunei,Australia,Algeria,C / F
+Cameroon,Burkina Faso,Azerbaijan,American Samoa,A / B / F / I
+Central African Republic,Burundi,Bahrain,Andorra,C / F
+Chad,Cambodia,Bangladesh,Angola,C
+"Congo, Rep. of the",Cameroon,Benin,Anguilla,A / B
+Côte d’Ivoire,Cape Verde,Bolivia,Antigua and Barbuda,A / B
+Democratic Republic of the Congo2,Central African Republic,Brazil,Argentina,I
+Equatorial Guinea,Chad,Burkina Faso,Armenia,C / F
+Ethiopia,Comoros,Burundi,Aruba,A / B / F
+Gabon,Democratic Republic of the Congo,Cambodia,Australia,I
+Gambia,Djibouti,Cameroon,Austria,C / F
+Ghana,Egypt,Cape Verde,Azerbaijan,C / F
+Guinea,Equatorial Guinea,Central Africa Republic,Azores,B / C / F
+Guinea-Bissau,Eritrea,Chad,Bahamas,A / B
+Kenya,Ethiopia,China,Bahrain,G
+Liberia,Gabon,Congo Republic (Brazzaville),Balearic Islands,C / F
+Mali,Gambia,Cote d’Ivoire,Bangladesh,A / C / D / G / K
+Mauritania,Ghana,Democratic Republic of Congo (Kinshasa),Barbados,A / B
+Niger,Guinea,Djibouti,Belarus,C / F
+Nigeria,Guinea-Bissau,Egypt,Belgium,C / E
+Senegal,Haiti,Eritrea,Belize,A / B / G
+Sierra Leone,India,Ethiopia,Benin,C / E
+Sudan,Indonesia,Gabon,Bermuda,A / B
+South Sudan,Kenya,Gambia,Bhutan,C / D / G
+Togo,Laos,Ghana,Bolivia,A / C
+Uganda,Lesotho,Guinea,Bonaire,A / C
+Argentina,Liberia,India,Bosnia & Herzegovina,C / F
+Bolivia,Libya,Indonesia,Botswana,D / G
+Brazil,Madagascar,Iran,Brazil,C / N
+Colombia,Malawi,Iraq,British Virgin Islands,A / B
+Ecuador,Malaysia,Jordan,Brunei,G
+French Guiana,Mali,Kenya,Bulgaria,C / F
+Guyana,Mauritania,Kyrgyzstan,Burkina Faso,C / E
+Panama,Mauritius,Laos,Burma (officially Myanmar),A / C / D / G / I
+Paraguay,Morocco,Lebanon,Burundi,C / E
+Peru,Mozambique,Liberia,Cambodia,A / C / G
+Suriname,Myanmar (Burma),Libya,Cameroon,C / E
+Trinidad and Tobago,Namibia,Madagascar,Canada,A / B
+Venezuela,Niger,Mali,Canary Islands,C / E / F
+,Nigeria,Mauritania,Cape Verde (in Portuguese: Cabo Verde),C / F
+,Papua New Guinea,Mozambique,Cayman Islands,A / B
+,Philippines,Myanmar,Central African Republic,C / E
+,Republic of the Congo,Nepal,Chad,C / D / E / F
+,Rwanda,Niger,Channel Islands (Guernsey & Jersey),C / G
+,Senegal,Nigeria,Chile,C / L
+,Sierra Leone,Oman,"China, People’s Republic of",A / C / I
+,Singapore,Papua New Guinea,Christmas Island,I
+,Somalia,Pakistan,Cocos (Keeling) Islands,I
+,South Africa,Qatar,Colombia,A / B
+,South Sudan,Rwanda,Comoros,C / E
+,Sudan,Russia,"Congo, Democratic Republic of",C / D / E
+,Swaziland,Saudi Arabia,"Congo, People’s Republic of",C / E
+,Tanzania,Sierra Leone,Cook Islands,I
+,Thailand,South Sudan,Costa Rica,A / B
+,Togo,Sri Lanka,Côte d’Ivoire (Ivory Coast),C / E
+,Tunisia,Sudan,Croatia,C / F
+,Uganda,Suriname,Cuba,A / B / C / L
+,Vietnam,Syria,Curaçao,A / B
+,Zambia,Tajikistan,Cyprus,G
+,Zimbabwe,Tanzania,"Cyprus, North (unrecognised, self-declared state)",G
+,,Thailand,Czechia (Czech Republic),C / E
+,,Togo,Denmark,C / E / F / K
+,,Turkey,Djibouti,C / E
+,,Turkmenistan,Dominica,D / G
+,,Uganda,Dominican Republic,A / B / C
+,,Uzbekistan,"Dubai (not a country, but the largest city in the United Arab Emirates)",G
+,,Venezuela,East Timor (Timor-Leste),C / E / F / I
+,,Vietnam,Ecuador,A / B
+,,Yemen,Egypt,C / F
+,,Zambia,El Salvador,A / B
+,,Zimbabwe,England,G
+,,,Equatorial Guinea,C / E
+,,,Eritrea,C / L
+,,,Estonia,C / F
+,,,Ethiopia,C / F
+,,,Faeroe Islands,C / E / F / K
+,,,Falkland Islands,G
+,,,Fiji,I
+,,,Finland,C / F
+,,,France,C / E
+,,,French Guiana,C / D / E
+,,,Gabon (Gabonese Republic),C
+,,,Gambia,G
+,,,Gaza Strip (Gaza),C / H
+,,,Georgia,C / F
+,,,Germany,C / F
+,,,Ghana,D / G
+,,,Gibraltar,G
+,,,Great Britain (GB),G
+,,,Greece,C / F
+,,,Greenland,C / E / F / K
+,,,Grenada,G
+,,,Guadeloupe,C / E
+,,,Guam,A / B
+,,,Guatemala,A / B
+,,,Guinea,C / F / K
+,,,Guinea-Bissau,C
+,,,Guyana,A / B / D / G
+,,,Haiti,A / B
+,,,Holland (officially the Netherlands),C / F
+,,,Honduras,A / B
+,,,Hong Kong,G
+,,,Hungary,C / F
+,,,Iceland,C / F
+,,,India,C / D / M
+,,,Indonesia,C / F
+,,,Iran,C / F
+,,,Iraq,C / D / G
+,,,Ireland (Eire),G
+,,,"Ireland, Northern",G
+,,,Isle of Man,C / G
+,,,Israel,C / H
+,,,Italy,C / F / L
+,,,Jamaica,A / B
+,,,Japan,A / B
+,,,Jordan,C / D / F / G / J
+,,,Kazakhstan,C / F
+,,,Kenya,G
+,,,Kiribati,I
+,,,"Korea, North",C
+,,,"Korea, South",F
+,,,Kosovo,C / F
+,,,Kuwait,G
+,,,Kyrgyzstan,C / F
+,,,Laos,A / B / C / E / F
+,,,Latvia,C / F
+,,,Lebanon,C / D / G
+,,,Lesotho,M
+,,,Liberia,A / B
+,,,Libya,C / L
+,,,Liechtenstein,C / J
+,,,Lithuania,C / F
+,,,Luxembourg,C / F
+,,,Macau,G
+,,,"Macedonia, Republic of (the former Yugoslav Republic of Macedonia, FYROM)",C / F
+,,,Madagascar,C / E
+,,,Madeira,C / F
+,,,Malawi,G
+,,,Malaysia,G
+,,,Maldives,C / D / G / J / K / L
+,,,Mali,C / E
+,,,Malta,G
+,,,Marshall Islands,A / B
+,,,Martinique,C / D / E
+,,,Mauritania,C
+,,,Mauritius,C / G
+,,,Mayotte,C / E
+,,,Mexico,A / B
+,,,"Micronesia, Federated States of",A / B
+,,,Moldova,C / F
+,,,Monaco,C / E / F
+,,,Mongolia,C / E
+,,,Montenegro,C / F
+,,,Montserrat,A / B
+,,,Morocco,C / E
+,,,Mozambique,C / F / M
+,,,Myanmar (formerly Burma),A / C / D / G / I
+,,,Namibia,D / M
+,,,Nauru,I
+,,,Nepal,C / D / M
+,,,Netherlands,C / F
+,,,New Caledonia,C / F
+,,,New Zealand,I
+,,,Nicaragua,A / B
+,,,Niger,C / D / E / F
+,,,Nigeria,D / G
+,,,Niue,I
+,,,Norfolk Island,I
+,,,"North Cyprus (unrecognised, self-declared state)",G
+,,,Northern Ireland,G
+,,,North Korea,C
+,,,Norway,C / F
+,,,Oman,G
+,,,Pakistan,C / D
+,,,Palau,A / B
+,,,Palestine,C / H
+,,,Panama,A / B
+,,,Papua New Guinea,I
+,,,Paraguay,C
+,,,Peru,A / C
+,,,Philippines,A / B / C
+,,,Pitcairn Islands,I
+,,,Poland,C / E
+,,,Portugal,C / F
+,,,Puerto Rico,A / B
+,,,Qatar,G
+,,,Réunion,C / E
+,,,Romania,C / F
+,,,Russia (officially the Russian Federation),C / F
+,,,Rwanda,C / J
+,,,Saba,A / B
+,,,Saint Barthélemy (informally also referred to as Saint Barth’s or Saint Barts),C / E
+,,,Saint Kitts and Nevis (officially the Federation of Saint Christopher and Nevis),D / G
+,,,Saint Lucia,G
+,,,Saint Martin,C / E
+,,,Saint Helena,G
+,,,Sint Eustatius,A / B / C / F
+,,,Sint Maarten,A / B
+,,,Saint Vincent and the Grenadines,A / B / G
+,,,Samoa,I
+,,,San Marino,C / F / L
+,,,São Tomé and Príncipe,C / F
+,,,Saudi Arabia,G
+,,,Scotland,G
+,,,Senegal,C / D / E / K
+,,,Serbia,C / F
+,,,Seychelles,G
+,,,Sierra Leone,D / G
+,,,Singapore,G
+,,,Slovakia,C / E
+,,,Slovenia,C / F
+,,,Solomon Islands,G / I
+,,,Somalia,C
+,,,Somaliland,C / G
+,,,South Africa,C / M / N (still rare)
+,,,South Korea,F
+,,,South Sudan,C / D
+,,,Spain,C / F
+,,,Sri Lanka,D / G
+,,,Sudan,C / D
+,,,Suriname,A / B / C / F
+,,,Swaziland,M
+,,,Sweden,C / F
+,,,Switzerland,C / J
+,,,Syria,C / E / L
+,,,Tahiti,C / E
+,,,Taiwan,A / B
+,,,Tajikistan,C / F
+,,,Tanzania,D / G
+,,,Thailand,A / B / C / O
+,,,Togo,C
+,,,Tokelau,I
+,,,Tonga,I
+,,,Trinidad & Tobago,A / B
+,,,Tunisia,C / E
+,,,Turkey,C / F
+,,,Turkmenistan,C / F
+,,,Turks and Caicos Islands,A / B
+,,,Tuvalu,I
+,,,Uganda,G
+,,,Ukraine,C / F
+,,,United Arab Emirates (UAE),G
+,,,United Kingdom (UK),G
+,,,United States of America (USA),A / B
+,,,United States Virgin Islands,A / B
+,,,Uruguay,C / F / L
+,,,Uzbekistan,C / F
+,,,Vanuatu,I
+,,,Vatican City,C / F / L
+,,,Venezuela,A / B
+,,,Vietnam,A / B / C
+,,,Virgin Islands (British),A / B
+,,,Virgin Islands (USA),A / B
+,,,Wales,G
+,,,Yemen,A / D / G
+,,,Zambia,C / D / G
+,,,Zimbabwe,D / G
