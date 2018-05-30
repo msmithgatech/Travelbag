@@ -1,0 +1,19 @@
+{
+  "name": "travelbag",
+  "version": "1.0.0",
+  "description": "travelbag",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msmithgatech/Travelbag.git"
+  },
+  "author": "Bianca Williams, Mamie Smith, Christie Harwell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msmithgatech/Travelbag/issues"
+  },
+  "homepage": "https://github.com/msmithgatech/Travelbag#readme"
+}
