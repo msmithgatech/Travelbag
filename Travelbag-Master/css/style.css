@@ -225,6 +225,21 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 /* --  Buttons  -- */
 
+.domBusBtn {
+    font-size:30px;
+    color:darkgoldenrod;
+    text-shadow: 1px 1px firebrick, 1px 1px papayawhip;
+    background-color:midnightblue;
+}
+
+#smlBag {
+    width:240px;
+    height:100px;
+}
+
+
+
+
 .main-btn, .white-btn, .outline-btn {
     display: inline-block;
     padding: 10px 35px;
