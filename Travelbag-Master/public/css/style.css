@@ -1773,6 +1773,26 @@ li {
   }
 }
 
-.weatherNav {
-    z-index: 1;
+.middle{
+    display: grid;
+    grid-template-rows: 5% 20%;
+    text-align: center;
+    padding: 5px 1px;
+}
+
+#temp {
+    font-size: 5rem;
+    color: #FFF;
+}
+
+#desc {
+    font-size: 1.4rem;
+    color: #FFF;
+
+}
+
+.degrees {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
 }
