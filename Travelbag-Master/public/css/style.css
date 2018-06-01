@@ -261,8 +261,8 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 .outline-btn {
     background: transparent;
-    color: #6195FF !important;
-    border-color: #6195FF;
+    color: #EEE !important;
+    border-color: #EEE;
 }
 
 .main-btn:hover, .white-btn:hover, .outline-btn:hover {
@@ -678,6 +678,10 @@ header {
     color: #fff;
 }
 
+li {
+    text-align: left;
+}
+
 
 /*------------------------------------*\
 	Portfolio
@@ -878,8 +882,11 @@ header {
 
 
 /*------------------------------------*\
-	Pricing
+	your account
 \*------------------------------------*/
+.your-account {
+    color: white;
+}
 
 .pricing {
     position: relative;
