@@ -175,6 +175,7 @@ DOMESTIC PERSONAL QUESTIONNAIRE:   ***ALL ITEMS ARE MULTIPLE-CHOICE
       -- Side-trips before arrival at destination / Side-trips after arrival at destination / None
       -- Need to plan actitivies / Already planned activities / Check on arrival / Other arrangements made
 
+
 ###############
 ##### INCLUDE  THESE 2 URLs IN EVERY TRAVELBAG:
 
