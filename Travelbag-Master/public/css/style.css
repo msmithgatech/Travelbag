@@ -261,8 +261,8 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 .outline-btn {
     background: transparent;
-    color: #6195FF !important;
-    border-color: #6195FF;
+    color: #EEE !important;
+    border-color: #EEE;
 }
 
 .main-btn:hover, .white-btn:hover, .outline-btn:hover {
@@ -678,6 +678,10 @@ header {
     color: #fff;
 }
 
+li {
+    text-align: left;
+}
+
 
 /*------------------------------------*\
 	Portfolio
@@ -878,8 +882,11 @@ header {
 
 
 /*------------------------------------*\
-	Pricing
+	your account
 \*------------------------------------*/
+.your-account {
+    color: white;
+}
 
 .pricing {
     position: relative;
@@ -1764,4 +1771,28 @@ header {
     -webkit-transform:scale(0);
             transform:scale(0);
   }
+}
+
+.middle{
+    display: grid;
+    grid-template-rows: 5% 20%;
+    text-align: center;
+    padding: 5px 1px;
+}
+
+#temp {
+    font-size: 5rem;
+    color: #FFF;
+}
+
+#desc {
+    font-size: 1.4rem;
+    color: #FFF;
+
+}
+
+.degrees {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
 }
