@@ -989,18 +989,18 @@ li {
 .testimonial-meta {
     position: relative;
     padding-left: 90px;
-    height: 70px;
-    margin-bottom: 20px;
-    padding-top: 10px;
+    height: 210px;
+    margin-bottom: 5px;
+    padding-top: 20px;
 }
 
 .testimonial img {
     position: absolute;
     left: 0;
     top: 0;
-    width: 70px !important;
-    height: 70px !important;
-    border-radius: 50%;
+    width: 80% !important;
+    height: 80% !important;
+    border-radius: 5%;
 }
 
 .testimonial h3 {
