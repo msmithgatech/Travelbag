@@ -49,6 +49,15 @@
 	<nav id="nav" class="navbar nav-transparent">
 		<div class="container">
 
+					<!--  Main navigation  -->
+					<ul class="main-nav nav navbar-nav navbar-right">
+							<li><a href="index.html#home">Home</a></li>
+							<li><a href="index.html#about">About</a></li>
+							<li><a href="index.html#team">Team</a></li>
+					</ul>
+					<!--/main navigation-->
+
+			
 			<div class="navbar-header">
 				<!-- Logo -->
 				<div class="navbar-brand">
@@ -65,13 +74,7 @@
 				</div>
 				<!-- /Collapse nav button -->
 			</div>
-
-			<!--  Main navigation  -->
-			<ul class="main-nav nav navbar-nav navbar-right">
-				<li><a href="index.html#home">Home</a></li>
-				<li><a href="index.html#about">About</a></li>
-				<li><a href="index.html#team">Team</a></li>
-			</ul>
+			
 		</div>
 	</nav>
 	<!-- /Nav -->
@@ -92,8 +95,8 @@
 				<div class="row">
 					<div class="col-sm-12">
 
-						<button class="white-btn"><a href="dombusiness.html">Domestic</a></button>
-						<button class="white-btn"><a href="intbusiness.html">International</a></button>
+						<button class="white-btn"><a href="domesticmain.html">Domestic</a></button>
+						<button class="white-btn"><a href="internationalmain.html">International</a></button>
 					</div>      <!-- END DOMESTIC AND INTERNATIONAL BUTTONS -->
 				</div>     <!--  END BUTTON ROW  -->
 			</div>      <!--  END CONTAINER  -->
@@ -106,57 +109,141 @@
 <!-- About -->
 <div id="about" class="section md-padding">
 
-	<!-- Container -->
-	<div class="container">
+		<!-- Container -->
+		<div class="container">
 
-		<!-- Row -->
-		<div class="row">
+			<!-- Row -->
+			<div class="row">
 
-			<!-- Section header -->
-			<div class="section-header text-center">
-				<h2 class="title">Welcome to TravelBag!</h2>
-			</div>
-			<!-- /Section header -->
-
-			<!-- about -->
-			<div class="col-md-12">
-				<div class="about">
-					<i class="fa fa-mobile"></i>
-					<h3>Helps you get ready for your next trip</h3>
-					<p>When your travel for personal reasons, both domestic or internationally,
-						TravelBag is here to help. TravelBag helps create a checklist to ensure everything
-						needed for your travel is packed.
-
-						Just answer a series of travel questions that will be used to generate your checklist.
-						Travel Bag currently offers a Basic Checklist and a Custom Checklist. TravelBag saves your
-						checklists for future use.</p>
-					<a href="#">Read more</a>
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Welcome to TravelBag!</h2>
 				</div>
+
+				<div class="about-text">
+					<p> 
+						Whether your travel is domestic or international, Travel Bag is here to help you prepare for your next trip. 
+						Travel Bag will help you by creating a checklist to ensure everything needed for your travel is packed.
+					</p>
+					<p>
+						Answer a series of travel questions that will be used to generate your customized checklist. 
+						Travel Bag can save your checklists for future use.
+					</p>
+					<br>
+				</div>
+				<!-- /Section header -->
+
+				<!-- about -->
+				<div class="col-md-12 col-s-6">
+					<div class="about">
+						<i class="fa fa-magic"></i>
+						<i class="fa fa-suitcase" style="font-size:48px;color:red"></i>
+						<h3>Custom Checklist</h3>
+						<br>
+
+						<p id="checklist-options">A custom Travel Bag checklist is generated based on your response to the questionnaire and will include location specific items needed and recommended for your trip.
+							<br>
+
+							<br>
+							<li>Visa information (international travel)</li>
+							<li>vaccination information for (international travel)</li>
+							<li>Basic Travel Checklist items</li>
+						</p>
+					</div>
+				</div>
+				<!-- /about -->
+
 			</div>
-			<!-- /about -->
+			<!-- /Row -->
 
 		</div>
-		<!-- /Row -->
+		<!-- /Container -->
 
 	</div>
-	<!-- /Container -->
-
-</div>
-<!-- /About -->
+	<!-- /About -->
 
 
+		<!-- weather nav-->
+		<div class="container">
+			<input id="city" type="text"></input>
+			<button id="getWeather">Get Weather</button>
+			<div class="main-nav nav navbar-nav navbar-center">
+				<img src="" alt="icon" id="icon">
+				<div class="degrees">
+					<h1 id="temp"></h1>							
+					<span>&#176</span>
+				</div>
+				<h3 id="desc"></h3>
+			</div>
+		</div>
+		<!--/weather nav-->
 
 
-<!-- Numbers -->
-<!--<div id="numbers" class="section sm-padding">-->
+<!-- Personalize -->
+<div id="Personalize" class="section md-padding bg-grey">
 
-	<!-- Background Image -->
-	<!--<div class="bg-img" style="background-image: url('./img/background2.jpg');">-->
-		<!--<div class="overlay"></div>-->
-	<!--</div>-->
-	<!-- /Background Image -->
+	<!-- Personalize -->
+	<div id="Personalize" class="section md-padding bg-grey">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Take The Survey</h2>
+				</div>
+				<!-- /Section header -->
+				
+				<!-- domestic -->
+				<div class="col-md-6 col-xs-6 work">
+						<div class="text-center">
+								<h3>Domestic Travel</h3>
+							</div>				
+					<img class="img-responsive" src="./img/kelsey-knight-452154-unsplash.jpg" alt="" width="300" height="300">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<h3>Domestic</h3>
+						<span>Answer a few questions about your domestic trip.</span>
+						
+						<div class="work-link">
+							<a href="dombusiness.html"><i class="fa fa-external-link"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /domestic -->
+
+				<!-- international -->
+				<div class="col-md-6 col-xs-6 work">
+						<div class="text-center">
+								<h3>International Travel</h3>
+							</div>
+					<img class="img-responsive" src="./img/deanna-ritchie-227649-unsplash.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<h3>International Travel</h3>
+						<span>Answer a few questions about your international trip.</span>
+						<div class="work-link">
+							<a href="intbusiness.html"><i class="fa fa-external-link"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /international -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Personalize1 -->
 
 
+<!-- Personalize -->
+<div id="Personalize" class="section md-padding bg-grey">
 
 	<!--  CARTOON CAROUSEL  BEGINS HERE  -->
 	<div id="testimonial" class="section md-padding">
@@ -269,9 +356,9 @@
 							<img class="img-responsive" src="./img/team1.jpg" alt="">
 							<div class="overlay">
 								<div class="team-social">
-									<a href="#"><i class="fa fa-facebook"></i></a>
+									<!-- <a href="#"><i class="fa fa-facebook"></i></a>
 									<a href="#"><i class="fa fa-google-plus"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a> -->
 								</div>
 							</div>
 						</div>
@@ -290,9 +377,9 @@
 							<img class="img-responsive" src="./img/team2.jpg" alt="">
 							<div class="overlay">
 								<div class="team-social">
-									<a href="#"><i class="fa fa-facebook"></i></a>
+									<!-- <a href="#"><i class="fa fa-facebook"></i></a>
 									<a href="#"><i class="fa fa-google-plus"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a> -->
 								</div>
 							</div>
 						</div>
@@ -311,9 +398,9 @@
 							<img class="img-responsive" src="./img/team3.jpg" alt="">
 							<div class="overlay">
 								<div class="team-social">
-									<a href="#"><i class="fa fa-facebook"></i></a>
+									<!-- <a href="#"><i class="fa fa-facebook"></i></a>
 									<a href="#"><i class="fa fa-google-plus"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a> -->
 								</div>
 							</div>
 						</div>
@@ -483,6 +570,7 @@
 	</div>
 	<!-- /Preloader -->
 
+	
 	<!-- jQuery Plugins -->
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
