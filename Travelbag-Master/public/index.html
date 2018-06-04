@@ -163,20 +163,21 @@
 	<!-- /About -->
 
 
-		<!-- weather nav-->
+		<!-- weather -->
 		<div class="container">
-			<input id="city" type="text"></input>
-			<button id="getWeather">Get Weather</button>
-			<div class="main-nav nav navbar-nav navbar-center">
-				<img src="" alt="icon" id="icon">
+			Enter city name to get weather.
+			<input id="cityName" type="text" style= "outline-color: #6195FF" style="outline-style: solid" ></input>
+			<div class="weatherResponse"></div>
+			<button onclick="getWeather()">Get weather</button>
+
+				<!-- <img src="" alt="icon" id="icon">
 				<div class="degrees">
 					<h1 id="temp"></h1>							
 					<span>&#176</span>
 				</div>
-				<h3 id="desc"></h3>
-			</div>
+				<h3 id="desc"></h3> -->
 		</div>
-		<!--/weather nav-->
+		<!--/weather -->
 
 	<!-- Personalize -->
 	<div id="Personalize" class="section md-padding bg-grey">
@@ -569,4 +570,5 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="js/weatherAPI.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
