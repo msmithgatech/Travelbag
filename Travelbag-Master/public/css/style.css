@@ -128,6 +128,10 @@ ul, ol {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+.md-padding2 {
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
 
 .sm-padding {
     padding-top: 60px;
@@ -1193,6 +1197,11 @@ li {
   color: #FFF;
 }
 
+#btn_s{
+    width:100px;
+    margin-left:auto;
+    margin-right:auto;
+}
 
 /* -- blog author -- */
 
