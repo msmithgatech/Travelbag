@@ -1,23 +1,23 @@
-// *********************************************************************************
-// api-routes.js - this file offers a set of routes for displaying and saving data to the db
-// *********************************************************************************
+// API ROUTES
+// ROUTES FOR DISPLAYING AND SAVING DATA TO THE DATABASE
 
-// Dependencies
-// =============================================================
-var Character = require("../models/character.js");
+// NEED MODEL OF THE TRAVELBAG DB (middleware)
+var Travelbag = require("../models/travelbag.js");
 
 // Routes
 // =============================================================
 module.exports = function(app) {
-  // Search for Specific Character (or all characters) then provides JSON
-  app.get("/api/:characters?", function(req, res) {
-    // If the user provides a specific character in the URL...
-    if (req.params.characters) {
-      // Then display the JSON for ONLY that character.
-      // (Note how we're using the ORM here to run our searches)
-      Character.findOne({
+        // FOR THIS TRAVELER:
+        // SEARCH FOR All TravelBags or a SPECIFIC Travelbag THEN SUPPLY THE JSON
+
+    app.get("/api/:Travelbag?", function(req, res) {
+
+        // LOGIC TO DISPLAY A SPECIFIC TRAVELBAG
+    if (req.params.journey) {
+      Travelbag.findOne({
         where: {
-          routeName: req.params.characters
+            req.params.user: kustom.traveler,
+            req.params.journey:  kustom.journey;
         }
       }).then(function(result) {
         return res.json(result);
@@ -25,32 +25,31 @@ module.exports = function(app) {
     }
     else {
       // Otherwise...
-      // Otherwise display the data for all of the characters.
-      // (Note how we're using Sequelize here to run our searches)
-      Character.findAll({}).then(function(result) {
+      //  OTHERWISE DISPLAY ALL TRAVELBAGS FOR THIS USER
+      Travelbag.findAll({}).then(function(result) {
         return res.json(result);
       });
     }
   });
 
-  // If a user sends data to add a new character...
+  // If a user sends data to add a new Travelbag...
   app.post("/api/new", function(req, res) {
     // Take the request...
-    var character = req.body;
+    var Travelbag = req.body;
 
     // Create a routeName
 
-    // Using a RegEx Pattern to remove spaces from character.name
+    // Using a RegEx Pattern to remove spaces from Travelbag.name
     // You can read more about RegEx Patterns later https://www.regexbuddy.com/regex.html
-    var routeName = character.name.replace(/\s+/g, "").toLowerCase();
+    var routeName = Travelbag.name.replace(/\s+/g, "").toLowerCase();
 
-    // Then add the character to the database using sequelize
-    Character.create({
+    // Then add the Travelbag to the database using sequelize
+    Travelbag.create({
       routeName: routeName,
-      name: character.name,
-      role: character.role,
-      age: character.age,
-      forcePoints: character.forcePoints
+      name: Travelbag.name,
+      role: Travelbag.role,
+      age: Travelbag.age,
+      forcePoints: Travelbag.forcePoints
     });
   });
 };

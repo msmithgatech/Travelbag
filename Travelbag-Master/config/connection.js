@@ -5,11 +5,12 @@
 // Dependencies
 var Sequelize = require("sequelize");
 
-// Creates mySQL connection using Sequelize, the empty string in the third argument spot is our password.
-var sequelize = new Sequelize("starwars", "root", "", {
+// Creates mySQL connection using Sequelize,
+// the empty string in the third argument spot is our password.
+var sequelize = new Sequelize("Travelbag_db", "root", "mickeymouse", {
   host: "localhost",
   port: 3306,
-  dialect: "mysql",
+  dialect: "mysql2",
   pool: {
     max: 5,
     min: 0,

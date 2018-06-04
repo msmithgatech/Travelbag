@@ -1,6 +1,6 @@
 USE travelbag_db;
 
-SELECT checklist.journey, leaveFrom, goingTo, kustom.journey, traveler,
+SELECT checklist.journey, checklist.leaveFrom, checklist.goingTo, kustom.journey, kustom.traveler
    FROM checklist INNER JOIN kustom ON (checklist.journey = kustom.journey) 
-   AND (kustID = kustom.id)
+   AND (checklist.kustID = kustom.id)
    ORDER BY checklist.journey;
