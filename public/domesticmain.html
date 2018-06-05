@@ -36,8 +36,7 @@
 	<![endif]-->
 
 	<!-- JS -->
-	<link rel="import" href="checkbox-list/dist/index.html">
-	<script src="js/domesticmain.js"></script>
+	<script src="js/travelmain.js"></script>
 
 </head>
 
@@ -86,12 +85,13 @@
 		<div class="header-wrapper sm-padding bg-grey">
 			<div class="container">
 				<h3>Customize Your Travel Experience</h3>
-					<h4>DOMESTIC QUESTIONNAIRE:   ***CHOOSE ALL OPTIONS THAT APPLY</h4>
+					<h4>INTERNATIONAL QUESTIONNAIRE: CHOOSE ALL OPTIONS THAT APPLY</h4>
 				</ul>
 			</div>
 		</div>
 		<!-- /header wrapper -->
 
+		
 <!--First Column Checklist-->
 	<div id="features" class="section md-padding2 bg-grey">
 
@@ -100,26 +100,34 @@
 
 			<!-- Row -->
 			<div class="row">
+				<div class="form-group row">
+			<div class="col-md-3">
+				<label><input type="name" class="form-control"name="name" value="First Name  M.I. Last Name">Your Full Name</label>
+					<br>
+				<label><input type="name" class="form-control"name="listname" value="Where Are You Traveling">List Name</label>
+			</div>
+		 </div>
 
-				<!-- COLUMN CHECKBOXES -->
+
+<!-- COLUMN CHECKBOXES -->
 				<div class="col-md-3">
 					<div class="section-header">
-						<h5 class="title">TICKETS/SEATING/DISCOUNT MILEAGE/WAITING AREA</h5>
+						<h5 class="title">TICKETS</h5>
 					</div>
 					<form action="/action_page.php">
-						<checkbox-list>
-						<label><input type="checkbox"> Buy Round Trip<br></label>
-						<label><input type="checkbox"> Buy One Way<br></label>
-						<label><input type="checkbox"> Have all tickets needed<br></label>
-						<label><input type="checkbox"> First Class Seating<br></label>
-						<label><input type="checkbox"> Business Class Seating<br></label>
-						<label><input type="checkbox"> Coach<br></label>
-						<label><input type="checkbox"> Using Discount Mileage Points<br></label>
-						<label><input type="checkbox">Earning Discount Mileage Points<br></label>
-						<label><input type="checkbox"> No Discount Mileage<br></label>
-						<label><input type="checkbox"> Using First Class Lounge<br></label>
-						<label><input type="checkbox"> Business Class Lounge <br></label>
-						<label><input type="checkbox"> Gate-side Waiting Area <br></label>
+					<checkbox-list>
+						<label><input type="checkbox" name="sel" value="Buy Round Trip"> Buy Round Trip<br></label>
+						<label><input type="checkbox" name="sel" value="Buy One Way"> Buy One Way<br></label>
+						<label><input type="checkbox" name="sel" value="Have all tickets needed"> Have all tickets needed<br></label>
+						<label><input type="checkbox" name="sel" value="First Class Seating"> First Class Seating<br></label>
+						<label><input type="checkbox" name="sel" value="Business Class Seating"> Business Class Seating<br></label>
+						<label><input type="checkbox" name="sel" value="Coach"> Coach<br></label>
+						<label><input type="checkbox" name="sel" value="Using Discount Mileage Points"> Using Discount Mileage Points<br></label>
+						<label><input type="checkbox" name="sel" value="Earning Discount Mileage Points">Earning Discount Mileage Points<br></label>
+						<label><input type="checkbox" name="sel" value="No Discount Mileage"> No Discount Mileage<br></label>
+						<label><input type="checkbox" name="sel" value="Using First Class Lounge"> Using First Class Lounge<br></label>
+						<label><input type="checkbox" name="sel" value="Business Class Lounge"> Business Class Lounge <br></label>
+						<label><input type="checkbox" name="sel" value="Gate-side Waiting Area"> Gate-side Waiting Area <br></label>
 					<br>
 					<br>
 					</form>
@@ -130,22 +138,22 @@
 				<!-- COLUMN CHECKBOXES -->
 				<div class="col-md-3">
 					<div class="section-header">
-						<h5 class="title">TRANSPORTATION at ARRIVAL DESTINATION/NAVIGATION/GAS CARD</h5>
+						<h5 class="title">TRANSPORTATION ON ARRIVAL</h5>
 					</div>
 					<form action="/action_page.php">
-						<label><input type="checkbox"> Company Chauffeur<br></label>
-						<label><input type="checkbox"> Need a rental car<br></label>
-						<label><input type="checkbox"> Take a Shuttle<br></label>
-						<label><input type="checkbox">Car Pooling<br></label>
-						<label><input type="checkbox"> Uber or Lyft<br></label>
-						<label><input type="checkbox"> Taxi<br></label></label>
-						<label><input type="checkbox"> Travel Itinerary<br></label>
-						<label><input type="checkbox">Driving Directions<br></label>
-						<label><input type="checkbox"> Local Map<br></label>
-						<label><input type="checkbox"> Smartphone App<br></label>
-						<label><input type="checkbox"> Use Business Gas Card <br></label>
-						<label><input type="checkbox"> Use Personal Gas Card<br></label>
-						<label><input type="checkbox"> No Gas Card<br></label>
+						<label><input type="checkbox" name="sel" value="Company Chauffeur"> Company Chauffeur<br></label>
+						<label><input type="checkbox" name="sel" value="Need a rental car"> Need a rental car<br></label>
+						<label><input type="checkbox" name="sel" value="Take a Shuttle"> Take a Shuttle<br></label>
+						<label><input type="checkbox" name="sel" value="Car Pooling">Car Pooling<br></label>
+						<label><input type="checkbox" name="sel" value="Uber or Lyft"> Uber or Lyft<br></label>
+						<label><input type="checkbox" name="sel" value="Taxi"> Taxi<br></label>
+						<label><input type="checkbox" name="sel" value="Travel Itinerary"> Travel Itinerary<br></label>
+						<label><input type="checkbox" name="sel" value="Driving Directions">Driving Directions<br></label>
+						<label><input type="checkbox" name="sel" value="Local Map"> Local Map<br></label>
+						<label><input type="checkbox" name="sel" value="Smartphone App"> Smartphone App<br></label>
+						<label><input type="checkbox" name="sel" value="Use Business Gas Card"> Use Business Gas Card <br></label>
+						<label><input type="checkbox" name="sel" value="Use Personal Gas Card"> Use Personal Gas Card<br></label>
+						<label><input type="checkbox" name="sel" value="No Gas Card"> No Gas Card<br></label>
 					<br>
 					<br>
 					</form>
@@ -155,19 +163,19 @@
 				<!-- COLUMN CHECKBOXES -->
 				<div class="col-md-3">
 					<div class="section-header">
-						<h5 class="title">EXPENSES/RECEIPTS/DISCOUNT POINTS</h5>
+						<h5 class="title">EXPENSES AND RECEIPTS</h5>
 					</div>
 					<form action="/action_page.php">
-						<label><input type="checkbox"> Business Credit Card<br></label>
-						<label><input type="checkbox"> Personal Credit Card<br></label>
-						<label><input type="checkbox"> Cash<br></label>
-						<label><input type="checkbox">Travellers Cheques<br></label>
-						<label><input type="checkbox"> All Expenses Covered<br></label>
-						<label><input type="checkbox"> Use Charge Card Bill for receipts<br></label>
-						<label><input type="checkbox"> No receipts needed<br></label>
-						<label><input type="checkbox">Using Provider Discount Points<br></label>
-						<label><input type="checkbox"> Earning Provider Discount Points<br></label>
-						<label><input type="checkbox"> No Discount Membership<br></label>
+						<label><input type="checkbox" name="sel" value="Business Credit Card"> Business Credit Card<br></label>
+						<label><input type="checkbox" name="sel" value="Personal Credit Card"> Personal Credit Card<br></label>
+						<label><input type="checkbox" name="sel" value="Cash"> Cash<br></label>
+						<label><input type="checkbox" name="sel" value="Travellers Cheques"> Travellers Cheques<br></label>
+						<label><input type="checkbox" name="sel" value="All Expenses Covered"> All Expenses Covered<br></label>
+						<label><input type="checkbox" name="sel" value="Use Charge Card Bill for receipts"> Use Charge Card Bill for receipts<br></label>
+						<label><input type="checkbox" name="sel" value="No receipts needed"> No receipts needed<br></label>
+						<label><input type="checkbox" name="sel" value="Using Provider Discount Points"> Using Provider Discount Points<br></label>
+						<label><input type="checkbox" name="sel" value="Earning Provider Discount Points"> Earning Provider Discount Points<br></label>
+						<label><input type="checkbox" name="sel" value="No Discount Membership"> No Discount Membership<br></label>
 					  <br>
 					  <br>
 					</form>
@@ -177,21 +185,23 @@
 			<!-- COLUMN CHECKBOXES -->
 				<div class="col-md-3">
 					<div class="section-header">
-						<h5 class="title">DESTINATION EATING ACCOMODATIONS/SLEEPING ACCOMODATIONS</h5>
+						<h5 class="title">DINING AND LODGING</h5>
 					</div>
 					<form action="/action_page.php">
-						<label><input type="checkbox">Using First Class Dining Area<br></label>
-						<label><input type="checkbox">Business Class Dining Area<br></label>
-						<label><input type="checkbox"> Eating in the room<br></label>
-						<label><input type="checkbox">Eating in the room<br></label>
-						<label><input type="checkbox"> Need sleeping accommodations<br></label>
-						<label><input type="checkbox"> Accommodations made<br></label>
-						<label><input type="checkbox"> Other accommodations<br></label>
-						</checkbox-list>
+						<label><input type="checkbox" name="sel" value="Using First Class Dining Area">Using First Class Dining Area<br></label>
+						<label><input type="checkbox" name="sel" value="Business Class Dining Area">Business Class Dining Area<br></label>
+						<label><input type="checkbox" name="sel" value="Eating in the room"> Eating in the room<br></label>
+						<label><input type="checkbox" name="sel" value="Need sleeping accommodations"> Need sleeping accommodations<br></label>
+						<label><input type="checkbox" name="sel" value="Accommodations made"> Accommodations made<br></label>
+						<label><input type="checkbox" name="sel" value="Other accommodations"> Other accommodations<br></label>
 					<br>
-					<br>  
-					</form>
+					<br>
+					</form> 					
 				</div>
+		
+
+			</checkbox-list>
+			
 
 			</div>
 			<!-- /Row -->
@@ -203,9 +213,12 @@
 	<!-- /END OF COLUMNS-->
 
 	<!--SUBMIT-->
-              <div class="section-header text-center">
-                <button type="submit">
-                    Submit</button>
+	
+            <div class="section-header text-center">
+					<p>
+						<input type="button" onclick='printChecked()' value="Submit"/>
+					</p>
+				
                     <button type="delete">Delete</button>
                     <button type="save">Save</button>
             </div>
