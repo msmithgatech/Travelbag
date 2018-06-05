@@ -105,78 +105,99 @@
 </header>
 
 
-<!-- About -->
-<div id="about" class="section md-padding">
+<div class="container">
+	<!-- About -->
+	<div id="about" class="section md-padding">
 
-		<!-- Container -->
-		<div class="container">
+		<!-- Row -->
+		<div class="row">
 
-			<!-- Row -->
-			<div class="row">
-
-				<!-- Section header -->
-				<div class="section-header text-center">
-					<h2 class="title">Welcome to TravelBag!</h2>
-				</div>
-
-				<div class="about-text">
-					<p> 
-						Whether your travel is domestic or international, TravelBag is here to help you prepare.
-						Travel Bag helps you create a checklist to ensure everything needed for your travel is packed.
-					</p>
-					<p>
-						Answer a series of travel questions to generate your customized checklist.
-						TravelBag can save incomplete checklists for future updating, and saves all completed checklist.
-					</p>
-					<br>
-				</div>
-				<!-- /Section header -->
-
-				<!-- about -->
-				<div class="col-md-12 col-s-6">
-					<div class="about">
-						<i class="fa fa-magic"></i>
-						<i class="fa fa-suitcase" style="font-size:48px;color:red"></i>
-						<h3>Custom Checklist</h3>
-						<br>
-
-						<p id="checklist-options">A custom Travel Bag checklist is generated based on your response to the questionnaire and will include location specific items needed and recommended for your trip.
-							<br>
-
-							<br>
-							<li>Visa information (international travel)</li>
-							<li>vaccination information for (international travel)</li>
-							<li>Basic Travel Checklist items</li>
-						</p>
-					</div>
-				</div>
-				<!-- /about -->
-
+			<!-- Section header -->
+			<div class="section-header text-center">
+				<h2 class="title">Welcome to TravelBag!</h2>
 			</div>
-			<!-- /Row -->
 
+			<div class="about-text">
+				<p style="text-align: center"> 
+					Whether your travel is domestic or international, TravelBag is here to help you prepare.
+					Travel Bag helps you create a checklist to ensure everything needed for your travel is packed.
+				</p>
+				<p style="text-align: center">
+					Answer a series of travel questions to generate your customized checklist.
+					TravelBag can save incomplete checklists for future updating, and saves all completed checklist.
+				</p>
+			</div>
 		</div>
-		<!-- /Container -->
+		<!-- /Row -->
 
-	</div>
-	<!-- /About -->
+	
 
+	<!-- /Section header -->
+
+	<div class="container">
+		<!-- about -->
+		<div class="col-md-6x col-s-4 work">
+			<div class="about">
+				<i class="fa fa-magic"></i>
+				<i class="fa fa-suitcase" style="font-size:48px;color:red"></i>
+				<h3>Custom Checklist</h3>
+				<br>
+
+				<p id="checklist-options">A custom Travel Bag checklist is generated based on your response to the questionnaire and will include location specific items needed and recommended for your trip.
+					<br>
+
+					<br>
+					<li>Visa information (international travel)</li>
+					<li>vaccination information for (international travel)</li>
+					<li>Basic Travel Checklist items</li>
+				</p>
+			</div>
+		</div>
+		<!-- /about -->
 
 		<!-- weather -->
-		<div class="container">
-			Enter city name to get weather.
-			<input id="cityName" type="text" style= "outline-color: #6195FF" style="outline-style: solid" ></input>
-			<div class="weatherResponse"></div>
-			<button onclick="getWeather()">Get weather</button>
+		<div class="col-md-6 col-xs-4 work">
+				Enter city name to get weather.
+				<input id="cityName" type="text" style= "background-color: #e3e5e8" style="outline-style: solid" ></input>
+				<div class="weatherResponse"></div>
+				<br>
+					<button onclick="getWeather()">Get weather</button>
 
-				<!-- <img src="" alt="icon" id="icon">
-				<div class="degrees">
-					<h1 id="temp"></h1>							
-					<span>&#176</span>
-				</div>
-				<h3 id="desc"></h3> -->
+					<img src="" alt="icon" id="icon">
+					<!-- <div class="degrees">
+						<h1 id="temp"></h1>                         
+						<span>&#176</span>
+					</div>
+					<h3 id="desc"></h3> -->
 		</div>
 		<!--/weather -->
+
+		<!-- vaccination information -->
+		<table class="col-md-6 col-xs-4 work">
+			<caption style="text-align: center">Vaccination and Visas</caption>
+			<tr>
+			<th>Vaccinations</th>
+			<th>Visa</th>
+			</tr>
+
+			<tr>
+			<td id="info">The following link will provide Vaccination information from the CDC(centers for disease control and prevention) for your international trip</td>
+			<td id="info">The following link will provide Visa requirements for your international trip</td>
+			</tr>
+			<tr>
+			<td><a href="https://wwwnc.cdc.gov/travel " target="_blank">Vaccination recommendations</a></td>
+			<td><a href="https://www.ivsdc.com/visas.html" target="_blank">Visa Requirements</a></td>
+			</tr>
+		</table>
+		</div>
+
+</div>
+<!-- /Container -->
+
+</div>
+</div>
+</div>
+
 
 	<!-- Personalize -->
 	<div id="Personalize" class="section md-padding bg-grey">
